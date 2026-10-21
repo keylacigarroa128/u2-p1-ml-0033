@@ -18,9 +18,23 @@ print("Dimension : ", calificaciones.ndim)
 print("  ")
 print(" --------- ej 4 2 dimensiones de un array ---------")
 calificaciones = np.array([
-    [60,70,90]
-     [50,80,98]
+    [60,70,90],
+    [50,80,98]
      ]) # un arreglo de dos dimensiones es como una tabla de excel
 print(calificaciones)
 print("Dimension : ", calificaciones.ndim)
-
+print("  ")
+print(" --------- ej 5 3 dimensiones de un array ---------")
+calificaciones = np.array([
+    [
+     [60,70,90],
+     [50,80,98]
+    ],
+    [
+     [60,70,90],
+     [50,80,98]
+    ]
+    ]) # un arreglo de tres dimensiones es como una tabla de excel
+print(calificaciones)
+print("Dimension : ", calificaciones.ndim)
+print("keyla Paola NC = 0033")
